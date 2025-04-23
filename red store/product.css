@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Winky Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5%;
+  margin-top: 1%;
+}
+nav img {
+  width: 10%;
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: linear-gradient(#c9d6ff, #e2e2e2);
+  display: block;
+  transition: 0.5s linear;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+.latest-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  align-items: center;
+  padding: 10px 10%;
+  gap: 1rem;
+}
+.products {
+  padding: 3px 3%;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.products p {
+  font-weight: 600;
+}
+.products i {
+  color: orange;
+}
+.products img {
+  width: 80%;
+  margin: 5% auto;
+  border-radius: 0.3rem;
+  transition: 0.5s linear;
+}
+.products img:hover {
+  transform: scale(1.1);
+}
+.more-products h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.more-products {
+  margin-top: 7rem;
+}
+
+span {
+  border-bottom: 4px solid #d3cce3;
+}
+footer {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10%;
+  margin-top: 4rem;
+}
+.foot-1 h3 {
+  margin-top: 2rem;
+}
+.foot-1 p {
+  margin-top: 1rem;
+}
+.images {
+  display: flex;
+  gap: 0.2rem;
+  margin-top: 1rem;
+}
+.images img {
+  width: 30%;
+}
+.foot-2 img {
+  width: 40%;
+  margin-top: 2rem;
+}
+.foot-2 p {
+  width: 80%;
+  margin-top: 1rem;
+}
+.foot-3 {
+  padding-right: 4rem;
+  width: 40%;
+  margin-top: 2rem;
+}
+.foot-3 h4 {
+  margin-bottom: 1rem;
+}
+.foot-3 ul li {
+  list-style: none;
+}
+.foot-4 {
+  width: 30%;
+  margin-top: 2rem;
+}
+.foot-4 ul li {
+  list-style: none;
+}
+.foot-4 h4 {
+  margin-bottom: 1rem;
+}

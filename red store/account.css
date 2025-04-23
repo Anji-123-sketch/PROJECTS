@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Winky Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5%;
+  margin-top: 1%;
+}
+nav img {
+  width: 10%;
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: linear-gradient(#c9d6ff, #e2e2e2);
+  display: block;
+  transition: 0.5s linear;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+.container {
+  background: linear-gradient(#d3cce3, #e9e4f0);
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container img {
+  width: 50%;
+}
+.form {
+  background-color: #fff;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 10rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.form h2 {
+  margin-bottom: 5rem;
+}
+span {
+  border-bottom: 4px solid #d3cce3;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 2rem;
+  outline: none;
+  border: 2px solid #d3cce3;
+}
+button {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bolder;
+  background: linear-gradient(#d9a7c7, #fffcdc);
+  margin-bottom: 4rem;
+}
