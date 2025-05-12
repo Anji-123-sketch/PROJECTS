@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+<section class="section-1" id="home">
+<nav>
+    <h1><span>A</span>njola.</h1>
+    <ul id="sidemenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <img src="./Img/sun.png" id="icon" alt="">
+        <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+       
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+
+<div class="header">
+<div class="header-text">
+    <h3>Frontend Developer</h3>
+    <h1 class="desktop-text">Hi, I'm <span class="auto-type">Anjola</span> </h1>
+    <h1 class="mobile-text">Hi, I'm <span>Anjola</span></h1>
+</div>
+<img src="./Img/a1.png" alt="">
+</div>
+</section>
+<section class="section-2" id="about">
+    <div>
+<img src="./Img/a2.png" alt="">
+</div>
+<div class="info">
+    <h1 class="h1">About Me</h1>
+    <p>My name is Taiwo AnjolaJesu Emmanuella. I am an upcoming future Frontend Developer
+        that would love to work at a Google Company. I trained at HiiT for my Skills applied.
+        i am very experienced in HTML,CSS,and Javascript. I am also learning UI/UX Design as a support 
+        for my frontend development. I work hard so that i can also aim to improve the technology society 
+        in any way possible.
+    </p>
+    <div class="info-1">
+        <p class="info-link active-link" onclick="opentab('skills')">Skills</p>
+        <p class="info-link" onclick="opentab('experience')">Experience</p>
+        <p class="info-link" onclick="opentab('education')">Education</p>
+    </div>
+    <div class="info-content active-content">
+        <ul>
+            <li><span>Frontend Development</span><br>Designing the seen Web Interface</li>
+            <li><span>UI/UX Design</span><br>Design Web/App interface</li>
+            <li><span>App Development</span><br>Building Andriod/IOS apps</li>
+        </ul>
+    </div>
+    <div class="info-content" id="skills">
+        <ul>
+            <li><span>Frontend Development</span><br>Designing the seen Web Interface</li>
+            <li><span>UI/UX Design</span><br>Design Web/App interface</li>
+            <li><span>App Development</span><br>Building Andriod/IOS apps</li>
+        </ul>
+    </div>
+    <div class="info-content" id="experience">
+        <ul>
+            <li><span>2025-Current</span><br>HiiT Web Design Class</li>
+            <li><span>2022-2024</span><br>Web Development Course From Udemy</li>
+            <li><span>2018-2019</span><br>HTML/CSS course from NIIT</li>
+        </ul>
+    </div>
+        <div class="info-content" id="education">
+            <ul>
+                <li><span>2016-2022</span><br>Deeper Life High School</li>
+                <li><span>2019</span><br>NiiT Training Institute</li>
+                <li><span>2022-Current</span><br>Benson Idahosa University</li>
+                <li><span>2025</span><br>HiiT Institute</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="section-3" id="services">
+    <h1 class="h1">My Services</h1>
+    <div class="service-general">
+    <div class="service-info">
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Web design involves creating visually appealing, 
+            user-friendly, and responsive websites for various purposes.</p>
+        <a href="#">Learn More</a>
+        
+    </div>
+    <div class="service-info">
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p>UI/UX design focuses on enhancing user satisfaction
+             by improving usability, accessibility, and interaction experience.</p>
+        <a href="#">Learn More</a>
+    </div>
+    <div class="service-info">
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Development</h2>
+        <p>App development involves creating software 
+            applications for mobile devices, ensuring functionality, usability, and performance.</p>
+        <a href="#">Learn More</a>
+    </div>
+    </div>
+</section>
+<section class="section-4" id="Portfolio">
+    <h1 class="h1">My Portfolio</h1>
+    <div class="work-general">
+        <div class="work">
+            <img src="./Img/img4.png" alt="">
+            <div class="layer">
+                <h3>Newspaper Website</h3>
+                <p>This website shows the news and the future
+                    of electronics and technologies in the society.
+                </p>
+                <a href="news homepage/news.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./Img/img5.png" alt="">
+            <div class="layer">
+                <h3>Social Links </h3>
+                <p>This is like a social introduction with the use of links 
+                    that has to do with the introduction and resources you use
+                </p>
+                    <a href="./social-links-profile-main/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="./Img/img6.png" alt="">
+            <div class="layer">
+                <h3>Tip Calculator</h3>
+                <p>This website shows a calculator that calculates the dollar and naira price of
+                    goods and services along with a tip amount.
+                </p>
+                <a href="./tip-calculator/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+           </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+</section>
+<section class="section-5" id="contact">
+   <div class="contact-text">
+    <h1>Contact Me</h1>
+    <div class="contact-1">
+        <i class="fa-solid fa-paper-plane"></i>
+        <p>taiwoanjolajesu@gmail.com</p>
+    </div>
+    <div class="contact-2">
+        <i class="fa-solid fa-phone"></i>
+        <p>08139362325</p>
+    </div>
+    <div class="contact-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <a href="./Img/my-cv.pdf" class="btn-a" download="">Download CV</a>
+   </div>
+   <div class="contact-form">
+    <form name="submit-to-google-sheet">
+    <input type="text" name ="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your Email" required>
+    <textarea name="Message" id="" rows="6"  >
+    </textarea>
+    <button class="btn-b">Submit</button>
+</form>
+<span id="msg"></span>
+</div>
+</section>
+
+<footer>
+    Copyright© made  with <i class="fa-solid fa-heart"></i> by Anjolajesu
+</footer>
+<script src=""></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script src="./JavaScript/app.js"></script>
+</body>
+</html>

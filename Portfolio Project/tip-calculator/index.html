@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <img src="images/logo.svg" class="img" alt="" />
+      <div class="container-wrapper">
+        <div class="container-left">
+          <div class="input-wrapper">
+            <div class="input-label">
+              <label for="">Bill</label>
+              <p class="error"></p>
+            </div>
+            <input type="text" placeholder="0" />
+            <img src="images/icon-dollar.svg" alt="" />
+          </div>
+          <div class="select-btn">
+            <label for="">Select Tips %</label>
+            <div class="select-btn-content">
+              <button>5%</button>
+              <button>10%</button>
+              <button>15%</button>
+              <button>25%</button>
+              <button>50%</button>
+              <input type="text" placeholder="Custom" />
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <div class="input-label">
+              <label for="">Number of People</label>
+              <p class="error"></p>
+            </div>
+            <input type="text" placeholder="0" />
+            <img src="images/icon-person.svg" alt="" />
+          </div>
+        </div>
+        <div class="container-right">
+          <div class="tip-amount">
+            <div class="tip">
+              <h4>Tip Amount</h4>
+              <p>/ person</p>
+            </div>
+            <div class="money">$0.00</div>
+          </div>
+          <div class="tip-display">
+            <div class="display">
+              <h4>Total</h4>
+              <p>/ person</p>
+            </div>
+            <div class="money-2">$0.00</div>
+          </div>
+          <button>RESET</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
